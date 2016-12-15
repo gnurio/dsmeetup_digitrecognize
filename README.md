@@ -1,4 +1,4 @@
-# dsmeetup_digitrecognize
+# Digit Recognizer for Data Science Meetup #2
 Project code for the Digit Recognizer competition discussed at the Data Science Meetup.
 
 The file has a lot of comments that go pretty much line by line, explaining what the code does. Keras is very easy to use, way easier than using Tensorflow straight.
