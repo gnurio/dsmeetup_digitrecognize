@@ -63,7 +63,7 @@ X_test = X_test.reshape(X_test.shape[0],28,28,1)
 
 X_train = X_train.astype('float32')
 X_test = X_test.astype('float32')
-X_train /= 255 # Don't understand what this does - HELP
+X_train /= 255
 X_test /= 255  
 
 # The labels are imported as a 1-dim array
@@ -105,7 +105,7 @@ model = Sequential()
 
 model.add(Convolution2D(32, 3, 3, activation='relu', input_shape=(28,28,1)))
 
-# Now we stack those layers like LEGOs. I also like to pretend I am stacking wads of cash.
+# Now we stack those layers.
 # Note the Dropout layer. This is a method for regularizing the model to prevent overfitting. 
 
 model.add(Convolution2D(32, 3, 3, activation='relu'))
